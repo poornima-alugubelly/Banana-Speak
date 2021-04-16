@@ -63,13 +63,13 @@ button {
   border: 1px solid var(--black);
   padding: 1rem;
   font-size: large;
+  
 }
 
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
- 
   background-color: var(--primary);
   text-align: center;
 }
