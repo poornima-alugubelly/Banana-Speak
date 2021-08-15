@@ -1,2 +1,2 @@
 # Banana-Speak
- An english to minionese translator 
+ A simple English to Minionese translator built using Javascript and api from https://funtranslations.com/. 
