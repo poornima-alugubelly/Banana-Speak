@@ -6,12 +6,12 @@ const serverURL = "https://api.funtranslations.com/translate/minion.json";
 
 const getTranslationURL = (input) => `${serverURL}?text=${input}`;
 
-const errorHandler = (error) => {
+function errorHandler(error) {
   console.log(`Error occured: ${error}`);
   alert("something wrong with server! try again after some time");
 };
 
-const clickHandler = () => {
+function clickHandler(){
   const inputText = txtInput.value;
   fetch(getTranslationURL(inputText))
     .then((response) => response.json())
